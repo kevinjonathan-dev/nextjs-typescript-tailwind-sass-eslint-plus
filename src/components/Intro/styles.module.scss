@@ -1,0 +1,36 @@
+@import 'styles';
+.main {
+  font-size: vw(30);
+  h1 {
+    margin: vw(16) 0;
+    color: $blue-primary;
+  }
+  li {
+    font-size: vw(20);
+    list-style-type: disc;
+    color: $orange-primary;
+  }
+  p {
+    margin-top: vw(30);
+    font-size: vw(24);
+    a {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .main {
+    font-size: vw_d(30);
+    h1 {
+      margin: vw_d(16) 0;
+    }
+    li {
+      font-size: vw_d(20);
+    }
+    p {
+      margin-top: vw_d(30);
+      font-size: vw_d(24);
+    }
+  }
+}
